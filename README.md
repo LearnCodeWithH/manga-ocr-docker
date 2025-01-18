@@ -10,3 +10,9 @@ Docker service for <https://github.com/kha-white/manga-ocr>.
 ```
 docker run --publish $PORT:$PORT --env PORT=$PORT --detach nanoskript/manga-ocr
 ```
+
+and navigate to 127.0.0.1:$PORT in your browser.
+
+### CUDA Support
+
+CUDA enabled image available as `nanoskript/manga-ocr-cuda`
