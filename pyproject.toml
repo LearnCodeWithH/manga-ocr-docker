@@ -7,7 +7,7 @@ name = "torch"
 requires-python = ">=3.10"
 dependencies = [
     "torch>=2.0.1",
-    "manga-ocr>=0.1.8",
+    "manga-ocr>=0.1.14",
     "fastapi>=0.89.1",
     "pillow>=9.4.0",
     "uvicorn[standard]>=0.20.0",
